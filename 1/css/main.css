@@ -1,0 +1,10 @@
+.elem {
+  width: 50px;
+  height: 25px;
+  background: red;
+  margin: 5px;
+}
+
+.input {
+  width: 600px;
+}
