@@ -1,9 +1,8 @@
-let getDimensionalArray = (arr, lgth) => {
-  if(lgth == 1) return arr;
-  let array = arr;
+let getDimensionalArray = (array, lgth) => {
+  let arr = array;
   let result = [];
-  while (array.length) {
-    result.push(array.splice(0, lgth));
+  while (arr.length) {
+    result.push(arr.splice(0, lgth));
   }
   return result
 }
