@@ -1,10 +1,10 @@
-let createHolder = (arg) => {
+const createHolder = (arg) => {
   let myObj = {
     value: arg,
-    getValue: function() {
+    getValue() {
       console.log(this.value);
     },
-    setValue: function(newValue) {
+    setValue(newValue) {
       this.value = newValue
     }
   }

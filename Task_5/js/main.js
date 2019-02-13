@@ -1,4 +1,4 @@
-let getLowerestIndex = (array, value) => {
+const getLowerestIndex = (array, value) => {
   let arr = array;
   arr.push(value)
   arr.sort((a, b) => a - b);

@@ -1,4 +1,4 @@
-let frame = (array, symbol) => {
+const frame = (array, symbol) => {
   let arr = array;
   let borderLength = getGreatestLength(arr);
   arr.push('');
@@ -11,7 +11,7 @@ let frame = (array, symbol) => {
   return tempArr.join('\n');
 }
 
-let getGreatestLength = (arr) => {
+const getGreatestLength = (arr) => {
   let newArr = arr.map((elem) => {
     return elem.length
   })

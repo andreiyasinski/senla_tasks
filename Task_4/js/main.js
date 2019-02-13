@@ -1,4 +1,4 @@
-let getDimensionalArray = (array, lgth) => {
+const getDimensionalArray = (array, lgth) => {
   let arr = array;
   let result = [];
   while (arr.length) {
